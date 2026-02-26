@@ -4,7 +4,7 @@ const DataManager = {
     storageKeyConfig: 'trading_dojo_config',
 
     // ĐÓNG VAI TRÒ CẦU NỐI: LINK API GOOGLE SHEETS CỦA ANH
-    API_URL: 'https://script.google.com/macros/s/AKfycbxu6IQcK7byr0vGToQwnZ9XRKNfb1ebWcizgg5BptIK0bSedPwLlIO5gzhFgxcIMmw5/exec', 
+    API_URL: 'https://script.google.com/macros/s/AKfycby6CWWkRlZeRd0m2A35dOjYbL2sXdnEMjyYZv5g56Txjxew2qbWzsizxKokjWR5T-8j/exec', 
 
     // --- 0. ĐỒNG BỘ TỪ GOOGLE SHEETS VỀ (GỌI KHI MỞ WEB) ---
     syncFromSheet: async function() {
@@ -173,4 +173,5 @@ const DataManager = {
             headers: { 'Content-Type': 'text/plain;charset=utf-8' }
         });
     }
+
 };
